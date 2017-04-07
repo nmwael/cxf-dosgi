@@ -10,3 +10,11 @@ In plain CXF we would need to do two things
 In CXF-DOSGi we can set the bus property by using a special service property on out TaskResourceImpl.
 
 We can also set the JacksonJaxbJsonProvider by creating a separate class that offers the provider as an Remote Service Admin intent. As a last step we must add the intent to the TaskResourceImpl using another service property.
+
+Swagger have been added navigate to http://localhost:8181/cxf/tasks/swagger.json
+To see swagger content..
+
+
+[Currently broken]
+Swagger ui have also been added navigate to http://localhost:8181/cxf/services/api-docs?/url=/swagger.json
+

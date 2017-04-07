@@ -34,6 +34,7 @@ import org.osgi.service.component.annotations.Component;
       "service.exported.interfaces=*", //
       "service.exported.configs=org.apache.cxf.rs", //
       "service.exported.intents=jackson", //
+             "service.exported.intents=swagger",      //
       "org.apache.cxf.rs.address=/tasks", //
       "cxf.bus.prop.skip.default.json.provider.registration=true"
     } //
